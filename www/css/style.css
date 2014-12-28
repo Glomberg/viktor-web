@@ -90,21 +90,57 @@ a.to-index .back-arrow {
 	font-size: 12pt;
 	font-family: Tahoma;
 }
+	#portfolio ul {
+		
+	}
+	#portfolio ul li {
+		width: 295px;
+		height: 159px;
+		display: inline-block;
+		position: relative;
+		background-size: contain;
+		transform: scale(1);
+		transition-property: transform;
+		transition-duration: 1s;
+	}
+		#portfolio ul li.crb {
+			background-image: url("../img/med-crb.gif");
+			transform-origin: left bottom;
+		}
+		#portfolio ul li.lr {
+			background-image: url("../img/liniaremonta.gif");
+			transform-origin: center bottom;
+		}
+		#portfolio ul li.ckt {
+			background-image: url("../img/ckt-med.gif");
+			transform-origin: right bottom;
+		}
+			#portfolio ul li:hover {
+				transform: scale(1.5);
+				z-index: 100;
+			}
 #portfolio tr {
 	text-align: center;
-	
 }
 #portfolio a.button {
-	background: #554852;
-	padding: 5px 20px;
-	border: 2px solid #A39A9D;
-	border-radius: 5px;
+	position: absolute;
+	bottom: 0;
+	background: rgba(95, 92, 99, 0.4);
+	padding: 5px 0;
+	width: 295px;
+	text-align: center;
 	color: #D6D0D0;
 	text-decoration: none;
+	transition-property: all;
+	transition-duration: .5s;
+	z-index: 100;
+	transition-property: color background;
+	transition-duration: .5s;
 }
+
 #portfolio a.button:hover{
-	padding: 7px 25px;
 	color: #A39A9D;
+	background: rgba(95, 92, 99, 0.8);
 }
 tr.image td {
 	width: 300px;
