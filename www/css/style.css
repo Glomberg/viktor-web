@@ -91,7 +91,8 @@ a.to-index .back-arrow {
 	font-family: Tahoma;
 }
 	#portfolio ul {
-		
+		display: block;
+		text-align: center;
 	}
 	#portfolio ul li {
 		width: 295px;
@@ -102,6 +103,8 @@ a.to-index .back-arrow {
 		transform: scale(1);
 		transition-property: transform;
 		transition-duration: 1s;
+		text-align: left;
+		margin-bottom: 3px;
 	}
 		#portfolio ul li.crb {
 			background-image: url("../img/med-crb.gif");
@@ -114,6 +117,10 @@ a.to-index .back-arrow {
 		#portfolio ul li.ckt {
 			background-image: url("../img/ckt-med.gif");
 			transform-origin: right bottom;
+		}
+		#portfolio ul li.grabz {
+			background-image: url("../img/grabz.gif");
+			transform-origin: center bottom;
 		}
 			#portfolio ul li:hover {
 				transform: scale(1.5);
