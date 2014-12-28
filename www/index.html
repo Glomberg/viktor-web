@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Сайт-портфолио начинающего WEB-разработчика</title>
+<meta charset="win-1251">
+<link rel="stylesheet" type="text/css" href="css/css-reset.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="scripts/jquery-1.11.1.min.js"></script>
+<script src="scripts/script.js"></script>
+</head>
+<body>
+
+<!-- start TuningPage script -->
+<!-- <script type="text/javascript">
+	$(document).ready(function(){
+		var currentPosition = 0;
+		var slideWidth = 560;
+		var slides = $('.slide');
+		var numberOfSlides = slides.length;
+		$('#slider-content').css('overflow','hidden');
+		slides
+		.wrapAll('<div id="slideInner"></div>')
+		.css({
+			'float': 'left',
+			'width': slideWidth,
+			'position':'absolute'
+		});
+		$('#slideInner').css('width', slideWidth * numberOfSlides);
+		 Testing script start 
+		$('#slideInner').bind('click', (function(){
+			this is backup of code
+		$('#slideInner').bind('click', (function(){
+			$('#slideInner .slide').animate({
+				'right': slideWidth}, 1000);
+		}));
+	}); 
+</script> -->
+<!-- stop TuningPage script -->
+
+<div id="header">
+	<div id="header-inner">
+		<h1>Сайт-портфолио начинающего WEB-разработчика</h1>
+		<h2>Приятно познакомиться :)</h2>
+		<a href="vitalik/vitalik.html" title="Мой девятилетний сын постигает азы ВЕБ-строительства">Виталик (мой сын)</a>
+	</div>
+</div>
+
+<div id="wrapper">
+	<div id="slider">
+		<div id="slider-content">
+			<div class="slide">
+				<img src="img/cat1.gif">
+			</div>
+			<div class="slide">
+				<img src="img/cat2.gif">
+			</div>
+			<div class="slide">
+				<img src="img/cat3.gif">
+			</div>
+			<div class="slide">
+				<img src="img/cat4.gif">
+			</div>
+		</div>
+	</div>
+<hr align="center" color="#554852" size="2px" width="900px">
+	<div id="about">
+		<p>Доброго времени суток!
+Я - системный администратор с 2005 года. Созданием (разработкой, версткой, интеграцией в CMS Joomla) сайта занимался на уровне хобби, но считаю что достиг некоторого опыта. HTML, CSS, PHP - уровень средний и выше. WEB-разработка очень нравится и хотел бы заниматься именно этим.
+Это мои работы созданные с пустого листа блокнота - med-crb.karelia.pro liniaremonta.com .
+Непродолжительное время администрировал сайт местного провайдера (сайт на Битриксе ckt-med.ru). Освоить другие CMS смогу в кратчайшие сроки.
+Готов работать и развиваться, способность к самообучению высокая.
+<br>С уважением, Виктор.</p>
+	</div>
+	<div id="portfolio">
+		<table>
+		<tbody>
+		<tr class="image">
+		<td>
+			<img src="img/med-crb.gif">
+		</td>
+		<td>
+			<img src="img/liniaremonta.gif">
+		</td>
+		<td>
+			<img src="img/ckt-med.gif">
+		</td>
+		</tr>
+		<tr>
+		<td>
+			<p>Сайт Центральной районной больницы</p><br>
+			<a href="site1.html" class="button">Подробнее</a>
+		</td>
+		<td>
+			<p>Сайт строительной компании "Линия ремонта"</p><br>
+			<a href="site2.html" class="button">Подробнее</a>
+		</td>
+		<td>
+			<p>Сайт городского провайдера</p><br>
+			<a href="site3.html" class="button">Подробнее</a>
+		</td>
+		</tr>
+		</tbody>
+		</table>
+	</div>
+	<div id="content">
+	<p class="ul-name">Комплексное обслуживание для Вас:</p>
+	<ul>
+		<li>Обсуждение тонкостей WEB-существования</li>
+		<li>Сайт Вашей компании - какой он?</li>
+		<li>Разработка дизайна (привлекаем ваших дизайнеров)</li>
+		<li>Верстка утвержденного дизайна</li>
+		<li>Размещение на хостинге (обсуждение особенностей доменов и хостингов)</li>
+		<li>Обучение по наполнению или долгосрочное сотрудничество по обслуживанию Вашего сайта</li>
+	</ul>
+	</div>
+</div>
+
+<div id="footer">
+	<div id="footer-inner">
+		<font color="#D6D0D0">Mail to me: bazz@bk.ru, Skype to me: ievlevvictor</font>
+		<div class="yandex">
+			<!-- Yandex.Metrika informer -->
+			<a href="https://metrika.yandex.ru/stat/?id=27138992&amp;from=informer"
+			target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/27138992/3_0_7F7C83FF_5F5C63FF_0_pageviews"
+			style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:27138992,lang:'ru'});return false}catch(e){}"/></a>
+			<!-- /Yandex.Metrika informer -->
+
+			<!-- Yandex.Metrika counter -->
+			<script type="text/javascript">
+			(function (d, w, c) {
+				(w[c] = w[c] || []).push(function() {
+					try {
+						w.yaCounter27138992 = new Ya.Metrika({id:27138992,
+								clickmap:true,
+								trackLinks:true,
+								accurateTrackBounce:true});
+					} catch(e) { }
+				});
+
+				var n = d.getElementsByTagName("script")[0],
+					s = d.createElement("script"),
+					f = function () { n.parentNode.insertBefore(s, n); };
+				s.type = "text/javascript";
+				s.async = true;
+				s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+			
+				if (w.opera == "[object Opera]") {
+					d.addEventListener("DOMContentLoaded", f, false);
+				} else { f(); }
+			})(document, window, "yandex_metrika_callbacks");
+			</script>
+			<noscript><div><img src="//mc.yandex.ru/watch/27138992" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+			<!-- /Yandex.Metrika counter -->
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
