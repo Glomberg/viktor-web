@@ -1,0 +1,59 @@
+﻿@import url("style.css");
+
+header,
+.main,
+footer,
+article,
+section,
+figure,
+nav,
+aside {
+	border: 2px solid grey;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin: 5px;
+}
+header {
+	position: relative;
+	background: #5B5069;
+}
+.main {
+	background: #284442;
+}
+article {
+	background: #223046;
+}
+figure {
+	width: 100px;
+	height: 50px;
+	background: #6F2C5F;
+}
+nav {
+	width: 400px;
+	position: absolute;
+	right: 0;
+	top: 28px;
+	background: #7E1800;
+}
+section {
+	position: relative;
+	background: #A85900;
+}
+aside {
+	width: 100px;
+	height: 150px;
+	float: right;
+	background: #1F9E49;
+}
+footer {
+	background: #462226;
+}
+.name-of-block {
+	font-style: bold;
+	font-size: 14px;
+}
+.clear {
+	width: 100%;
+	clear: both;
+}

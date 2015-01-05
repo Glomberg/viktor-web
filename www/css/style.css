@@ -163,6 +163,31 @@ tr img {
 	margin: auto;
 	position: relative;
 }
+	.post-anons {
+		padding: 10px;
+		border-top: dashed 1px grey;
+	}
+	.post-anons:last-child {
+		border-bottom: dashed 1px grey;
+	}
+	.post-anons h2 {
+		font-size: 20px;
+		padding-bottom: 5px;
+	}
+	.post-anons img {
+		width: 40px;
+		height: 40px;
+		float: left;
+		padding: 5px;
+	}
+	.post-anons p {
+		padding: 5px;
+	}
+	.post-anons a {
+		display: block;
+		text-align: right;
+		clear: both;
+	}
 #content p.ul-name {
 	text-decoration: underline;
 	font-size: 20px;
@@ -176,7 +201,7 @@ tr img {
 #content ul li {
 	padding-bottom: 10px;
 }
-#content img {
+#content > img {
 	width: 600px;
 	height: 340px;
 	border: 2px solid #A39A9D;
