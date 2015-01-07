@@ -1,0 +1,241 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Grabz</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/css-reset.css">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<script type="text/javascript" src="scripts/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="scripts/script.js"></script>
+<script type="text/javascript" src="scripts/cufon-yui.js"></script>
+<script type="text/javascript" src="scripts/Lato_Light_300.font.js"></script>
+<script type="text/javascript" src="scripts/Lato_400.font.js"></script>
+<script type="text/javascript" src="scripts/Lato_700.font.js"></script>
+<script type="text/javascript" src="scripts/Lato_Semibold_600.font.js"></script>
+
+	<script type="text/javascript">
+	Cufon.replace(".menu a");
+	Cufon.replace(".big-form .label");
+	<!--Cufon.replace(".modal-lk h2");--!>
+	
+	Cufon.set("fontFamily", "Lato Bold");
+	Cufon.replace("#footer p");
+	
+	Cufon.set("fontFamily", "Lato");
+	Cufon.replace(".big-form span");
+	Cufon.replace(".big-form p");
+	Cufon.replace(".big-form .div-label1");
+	Cufon.replace(".big-form .div-label2");
+	Cufon.replace(".big-form>a");
+	Cufon.replace(".right .blago");
+	Cufon.replace(".right .event a");
+	Cufon.replace(".right .event p");
+	Cufon.replace(".us p");
+	
+	Cufon.set("fontFamily", "Lato Light");
+	Cufon.replace(".enter a");
+	Cufon.replace(".reg a");
+	Cufon.replace(".status h2");
+	Cufon.replace(".right h2");
+	Cufon.replace(".us h2");
+	Cufon.replace(".status p");
+	Cufon.replace(".status label");
+	Cufon.replace(".about h2");
+	Cufon.replace(".about p");
+	Cufon.replace(".about a");
+	Cufon.replace(".content>h2");
+	
+	</script>
+</head>
+<body>
+
+<!-- ........................... -->
+			<!--  
+		MODAL WINDOW
+		ENTER TO LK
+			-->
+<div id="fixed-enter">
+	<div class="modal-lk">
+		<span class="close"></span>
+		<h2>Вход в личный кабинет</h2>
+		<span class="left"></span>
+		<form action="">
+			<label><span>Имя аккаунта:</span>
+				<input type="text"></input>
+			</label>
+			<label><span>Пароль:</span>
+				<input type="password"></input>
+			</label>
+				<input type="submit" value="Войти" onclick="location.href='index-auth.html'"></input>
+		</form>
+		<div class="links">
+			<a class="dotted-link" href="/">Зарегистрироваться</a>
+			<a class="dotted-link" href="/">Забыли пароль?</a>
+		</div>
+	</div>
+</div>
+<!-- ........................... -->
+
+
+<div id="main-wrapper">
+<div id="wrapper">
+	<div class="header">
+		<div class="logo">
+			<img src="images/logo-name.png">
+			<span class="tire">-</span>
+			<h1>покупка и продажа<br>игровых валют</h1>
+		</div>
+		<ul class="noauth">
+			<li><span class="enter"></span><a href="#" id="enter">Вход</a></li>
+			<li><span class="reg"></span><a href="#" id="reg">Регистрация</a></li>
+		</ul>
+		<div class="search">
+			<input type="text" value="Поиск по сайту"></input>
+			<div class="lupa"></div>
+		</div>
+	</div>
+	<div class="menu">
+	<div class="left-ext">
+	</div>
+	<ul>
+		<li><a href="/">О нас</a></li>
+		<li><a href="/">Гарантии</a></li>
+		<li><a href="/">Отзывы</a></li>
+		<li><a href="/">Вопросы и ответы</a></li>
+		<li><a href="/">Поставщикам</a></li>
+		<li><a href="/">Система скидок</a></li>
+		<li><a href="/">Контакты</a></li>
+	</ul>
+	<div class="right-ext"></div>
+	</div>
+	<div class="content">
+		<div class="games">
+			<ul class="lineage">
+				<li><a href="/">LineAge 2 Classic (RU)</a></li>
+				<li><a href="/">LineAge 2 (RU)</a></li>
+				<li><a href="/">LineAge 2 (FREE)</a></li>
+			</ul>
+			<ul class="archeage">
+				<li><a href="/">ArcheAge (RUS)</a></li>
+			</ul>
+			<ul class="wow">
+				<li><a href="/">World Of Warcraft (RUS)</a></li>
+				<li><a href="/">World Of Warcraft (EU)</a></li>
+			</ul>
+			<ul class="eve">
+				<li><a href="/">EVE Online (RUS)</a></li>
+			</ul>
+		</div>
+		<div class="status">
+		<h2>Статус заявки</h2><span class="dots"></span>
+		<p>Проверьте, на какой стадии находится Ваш заказ.</p>
+			<form action="" method="post">
+				<label>Номер заказа:<input type="text" value="" name=""></input></label>
+				<label>Ник персонажа:<input type="text" value="" name=""></input></label>
+				<input type="submit" value="Найти" name=""></input>
+			</form>
+		</div>
+		<div class="about">
+			<h2>Продажа адены на руофе</h2>
+			<p>Основным направлением нашего сервиса является продажа игровой валюты на бесплатных серверах Lineage 2. Пользуясь нашими услугами Вы имеете возможность гарантированно получить свой заказ в кратчайшие сроки.</p>
+			<p class="last">Доставка приобретаемой валюты осуществляется от 5 до 90 минут. В случае задержки заказа Вы можете отказаться от него и потребовать возврат.</p>
+			<a href="/">Узнайте подробнее о наших преимуществах и гарантиях.</a>
+		</div>
+		<h2>Форма заказа</h2>
+		<div class="big-form">
+			<span class="telo"></span>
+			<a href="/">Обратиться к оператору</a>
+			<span class="operator"></span>
+			<div class="labels">
+				<span class="label">Ваш сервер:</span>
+				<span class="label">Способ доставки:</span>
+				<span class="label">Ник персонажа:</span>
+				<span class="label"> Способ оплаты:</span>
+				<span class="label">Сумма заказа:</span>
+			</div>
+			<form class="zakaz">
+				<input type="text"></input>
+				<input type="text"></input>
+				<input type="text"></input>
+				<input type="text"></input>
+				<div class="text">
+					<input class="little" type="text"></input>
+					<span class="div-label1">Заплачу</span>
+					<input class="little" type="text"></input>
+					<span class="div-label2">Получу</span>
+				</div>
+				<input type="submit" value="Заказать"></input>
+				<p>Обратите внимание, что зарегистрированные пользователи получают накопительную скидку и возможность учавствовать в партнерской программе.</p>
+				<a href="#" id="reg">Зарегистрироваться</a>
+			</form>
+			<div class="tooltips">
+				<span class="tooltip"><span class="tire">-</span>выберите сервер, на котором  хотите совершить покупку</span>
+				<span class="tooltip"><span class="tire">-</span>выберите способ доставки заказа в игре</span>
+				<span class="tooltip"><span class="tire">-</span>укажите ник персонажа в игре без ошибок</span>
+				<span class="tooltip"><span class="tire">-</span>выберите наиболее подходящий способ оплаты</span>
+				<span class="tooltip"><span class="tire">-</span>укажите сумму заказа и узнайте стоимость валюты</span>
+			</div>
+		</div>
+		<div class="right">
+			<div class="blago">
+				<p>1% с прибыли нашего магазина уходит на благотворительность</p>
+			</div>
+			
+			<div class="events">
+				<h2>События</h2><span class="dots"></span>
+				<div class="event">
+					<a href="/">Открыт предварительный набор поставщиков на Aweria.su</a>
+					<span class="kalendar"></span>
+					<p class="date">12.12.14</p>
+					<p>Сегодня открывается предварительный набор поставщиков на Aweia.su x50. Свои заявки Вы можете оставить в специальном разделе.</p>
+				</div>
+				<div class="event">
+					<a href="/">Началась продажа адены и COL на сервере L2Name.ru x50 Epilogue</a>
+					<span class="kalendar"></span>
+					<p class="date">29.12.14</p>
+					<p>Открыта продажа адены на сервере L2Name.ru x50 Epilogue. Стартовая стоимость 1ккк равна 150 руб.</p>
+				</div>
+			</div>
+			
+			<div class="contacts">
+			<h2>Контакты</h2><span class="dots"></span>
+			</div>
+		</div>	
+			
+		<div class="us">
+			<h2>О нас</h2><span class="dots"></span>
+			<p>Адена - востребованная игровая валюта среди игроков, почитающий MMORPG.
+			Приглашаем воспользоваться сервисом высокого уровня, где купить адену можно
+			по низким тарифам. Каждый посетитель становится нашим другом, потому что
+			все, кто решает купить адену, принимает участие в бонусных акциях. Продажа
+			адены - наша специализация, поэтому мы с благодарностью относимся к 
+			постоянным клиентам.<br>
+			Каждый гость будет вознагражден скидкой за верность в покупке адены у нас.<br><br>
+			Lineage II - Впечатляющая Вселенная, где многочисленные армии пользователей готовы сразиться между
+			 собой в кровавом бою. Ролевая онлайн игра Ла2 зовет всех в яркий мир фэнтези.</p>
+		</div>
+		<span class="dotted-line"></span>
+	</div>
+
+<div id="footer">
+	<div class="footer-menu">
+		<ul>
+			<li><a href="/">О нас</a></li>
+			<li><a href="/">Гарантии</a></li>
+			<li><a href="/">Отзывы</a></li>
+			<li><a href="/">Вопросы и ответы</a></li>
+			<li><a href="/">Поставщикам</a></li>
+			<li><a href="/">Система скидок</a></li>
+			<li><a href="/">Контакты</a></li>
+		</ul>
+	</div>
+	<div class="social">
+		<span class="vk"></span>
+		<span class="tw"></span>
+	</div>
+	<p class="dno">GRABZ (C) 2014 - 2015</p>
+</div>
+</div>
+</div>
+</body>
+</html>
